@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "fluke_8050a_sym_bib")(type "KiCad")(uri "${KIPRJMOD}/fluke_8050a_sym_bib.kicad_sym")(options "")(descr ""))
+)

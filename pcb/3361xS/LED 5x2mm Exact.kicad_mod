@@ -1,0 +1,97 @@
+(footprint "LED 5x2mm Exact"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.5 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "03502720-604d-4c52-b9c1-d00ff92e742d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED 5x2mm Exact"
+		(at 1.5 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ad04a682-acfa-4373-931f-6cecdfc4c067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dbd42a1-8a0b-4c85-8dde-9dfaa7461753")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa94f325-a821-44fd-b623-bf8cacc2d618")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2 -1.5)
+		(end 3 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "aa090a20-d54c-4cb6-8c63-606db9a10c8b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2d559186-23ce-4a1e-8e59-9bca64621eed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -0.76 -0.5)
+		(size 1.5 1.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22de78c7-0a14-42fd-9296-662703c106d5")
+	)
+	(pad "2" thru_hole circle
+		(at 1.74 -0.5)
+		(size 1.5 1.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "04c3d012-e62d-4b52-9b2f-3d3f17cde05c")
+	)
+	(embedded_fonts no)
+)
