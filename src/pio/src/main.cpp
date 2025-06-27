@@ -48,7 +48,7 @@
     17   W
     18   ST0
     20   HV
-    22   DP
+    21   DP
 */
 
 
@@ -65,7 +65,7 @@
   17  -> PortD Pin7  7           13
   18  -> PortB Pin0  8           14
   20  -> PortB Pin1  9           15
-  22  -> PortB Pin2  10          16
+  21  -> PortB Pin2  10          16
 */
 
 
